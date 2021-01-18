@@ -33,5 +33,4 @@ interface AuthorizationCodeInterface extends BaseAuthorizationCodeInterface
      *
      * @ingroup oauth2_section_4
      */
-    public function setAuthorizationCode($code, $client_id, $user_id, $redirect_uri, $expires, $scope = null, $id_token = null);
 }
